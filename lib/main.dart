@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Flutter Demo Application",
+      title: "My First Flutter Application",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Welcome to Flutter")
+          title: Text("Flutter Demo Application")
         ),
         body: Center(
           child: Text("Hello world")
