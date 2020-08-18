@@ -10,13 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "My First Flutter Application",
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Flutter Demo Application")
-        ),
-        body: Center(
-          child: Text("Hello world")
-        ),
+      home: MyHomePage(
+        title: "Flutter Demo Application",
       )
     );
   }
