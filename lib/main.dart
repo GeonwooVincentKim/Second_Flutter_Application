@@ -9,6 +9,13 @@ void main(){
   *  Print text methods.
   *  1. Using runApp(Text(""));
   *  2. Using print(""); only.
+  *
+  *  Applied in TextDirection.
+  *  1. ltr
+  *  --> Reads Left-To-Right.
+  *
+  *  2. rtl
+  *  --> Reads Right-To-Left.
   * */
   runApp(Text("Hello Flutter",
       textDirection: TextDirection.ltr, ));
