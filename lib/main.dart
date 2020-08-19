@@ -18,6 +18,8 @@ void main(){
   *  --> Reads Right-To-Left.
   * */
   runApp(Text("Hello Flutter",
-      textDirection: TextDirection.ltr, ));
+      textDirection: TextDirection.ltr));
+  runApp(Text("Hello Flutter",
+      textDirection: TextDirection.rtl));
   print("Hello World");
 }
